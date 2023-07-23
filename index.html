@@ -173,16 +173,18 @@
       <div class="music-player">
         <div class="album"></div>
         <div class="player">
-          <div class="player-control"></div>
-            <img src="images/player_icon1.png" alt="">
-            <img src="images/player_icon2.png" alt="">
-            <img src="images/player_icon3.png" alt="">
-            <img src="images/player_icon4.png" alt="">
-            <img src="images/player_icon5.png" alt="">
+          <div class="player-control">
+            <img src="images/player_icon1.png" alt="" class="player-control-icon">
+            <img src="images/player_icon2.png" alt="" class="player-control-icon">
+            <img src="images/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1; height: 2rem;">
+            <img src="images/player_icon4.png" alt="" class="player-control-icon">
+            <img src="images/player_icon5.png" alt="" class="player-control-icon">
+          </div>
+
           <div class="playBack-bar">
-            <div class="curr-time">00.00</div>
-            <input type="range" min="0" max="100" class="progress-bar">
-            <div class="tot-time">3.33</div>
+            <span class="curr-time">00.00</span>
+            <input type="range" min="0" max="100" class="progress-bar" step="1">
+            <span class="tot-time">3.33</span>
           </div>
         </div>
         <div class="controls"></div>
